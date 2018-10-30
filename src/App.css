@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: brown;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.TickerTable {
+  border-collapse: border;
+  border: 1px solid #222222;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  padding: 4px
+}
+
+.SingleStockTable {
+  border-collapse: border;
+  border: 1px solid #222222;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  padding: 4px
+}
+
+.MinimumWidthRow {
+  min-width: 100px
+}
+
+.MinimumWidthRow2 {
+  min-width: 200px
+}
+
+.GrayBackground {
+  background-color: rgb(200, 207, 214)
+}
+
+.Negative {
+  background-color: #FAD2C9
+}
+
+.Positive {
+  background-color: rgb(143, 245, 196)
+}
+
+.Danger {
+  display: flex;
+  justify-content: center;
+  color: red
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
